@@ -29,6 +29,7 @@ public class Screen extends Canvas implements KeyListener {
 		// TODO Auto-generated method stub
 		super.paint(g);
 		g.drawImage(image, x, y, this);
+		g.drawImage(image, x+50, y, this);
 	}
 	@Override
 	public void keyTyped(KeyEvent e) {
