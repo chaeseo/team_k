@@ -38,11 +38,6 @@ public class Screen extends Canvas implements KeyListener {
 	@Override
 	public void keyPressed(KeyEvent e) {
 		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public void keyReleased(KeyEvent e) {
-		// TODO Auto-generated method stub
 		int gap = 10;
 		switch(e.getKeyCode())
 		{
@@ -61,6 +56,11 @@ public class Screen extends Canvas implements KeyListener {
 		}
 		System.out.println(x+", "+y);
 		repaint();
+	}
+	@Override
+	public void keyReleased(KeyEvent e) {
+		// TODO Auto-generated method stub
+	
 	}
 
 }
